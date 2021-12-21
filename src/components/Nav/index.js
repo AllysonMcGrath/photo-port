@@ -24,13 +24,7 @@ function Nav(props) {
                     <span role='img' aria-label='camera'> 📸</span> Oh Snap!
                 </a>
             </h2>
-            <nav
-                categories={categories}
-                setCurrentCategory={setCurrentCategory}
-                currentCategory={currentCategory}
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}
-                >
+            <nav>
                 <ul className='flex-row'>
                     <li className='mx-2'>
                         <a data-testid='about' href='#about' onClick={() => setContactSelected(false)}>

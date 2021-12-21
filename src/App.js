@@ -23,9 +23,11 @@ function App() {
     return (
    <div>
      <Nav
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       ></Nav>
      <main>
           {!contactSelected ? (
