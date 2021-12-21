@@ -3,6 +3,7 @@ import { render, cleanup, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import Modal from '..'
 
+const mockToggleModal = jest.fn();
 const currentPhoto = {
     name: 'Park bench',
     category: 'landscape',
@@ -10,10 +11,6 @@ const currentPhoto = {
     index: 1 
 };
 
-const mockToggleModal = ({currentPhoto}) => {
-    setCurrentPhoto({currentPhoto, i});
-    setIsModalOpen(!isModalOpen);
-  }
 
 afterEach(cleanup)
 
