@@ -17,6 +17,8 @@ Detailed instructions for cloning GitHub repositories can be found [here.](https
 
 ## Usage
 
+You can find the deployed site [here](https://allysonmcgrath.github.io/photo-port/).
+
 When displaying correctly, the website should look like this:
 
 ![Site with gallery of photos](./photoportsite.JPG)
